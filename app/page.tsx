@@ -53,15 +53,12 @@ export default function Home() {
 				</TypingAnimationText>
 			</div>
 			<div className="flex my-16 md:mx-16 mx-8">
-				<TypingAnimationText
-					text={"Schedule"}
-					className="text-4xl md:text-5xl text-[#BE277E] transition-all hover:underline hover:text-white hover:cursor-pointer"
-				>
-					<div>
-						{events.map((event) => (
+
+				<div>
+					{/* {events.map((event, index) => (
 							<div
 								className="flex my-8 md:mx-16 mx-8"
-								key={event.title}
+								key={index}
 							>
 								<TypingAnimationText
 									text={event.title}
@@ -72,9 +69,172 @@ export default function Home() {
 									</p>
 								</TypingAnimationText>
 							</div>
-						))}
+						))} */}
+
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>Entrorphosis</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="entror (1).jpg" alt="" className="rounded-lg" />
+							<img src="entror (2).jpg" alt="" className="rounded-lg" />
+						</div>
 					</div>
-				</TypingAnimationText>
+					<br />
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>Shark Tank</p>
+						<div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+							<img src="sk (1).jpg" alt="" className="rounded-lg" />
+							<img src="sk (2).jpg" alt="" className="rounded-lg" />
+							<img src="sk (3).jpg" alt="" className="rounded-lg" />
+
+						</div>
+					</div>
+
+					<br />
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>Trade Show</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="tradeshow (1).jpg" alt="" className="rounded-lg" />
+							<img src="tradeshow (2).jpg" alt="" className="rounded-lg" />
+						</div>
+					</div>
+
+					<br />
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>Adspize</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="ad1 (1).jpg" alt="" className="rounded-lg" />
+							<img src="ad1 (2).jpg" alt="" className="rounded-lg" />
+						</div>
+					</div>
+
+					<br />
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>UI/UX Hackathon</p>
+						<div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+							<img src="uiux (1).jpg" alt="" className="rounded-lg" />
+							<img src="uiux (2).jpg" alt="" className="rounded-lg" />
+							<img src="uiux (4).jpg" alt="" className="rounded-lg" />
+							<img src="uiux (5).jpg" alt="" className="rounded-lg" />
+
+						</div>
+					</div>
+
+					<br />
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+
+					<br />
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>PCB Workshop</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="pcb1 (1).jpg" alt="" className="rounded-lg" />
+							<img src="pcb1 (2).jpg" alt="" className="rounded-lg" />
+							{/* <img src="pcb3.jpeg" alt="" className="rounded-lg" /> */}
+
+
+						</div>
+					</div>
+
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>The BigBull Workshop</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="big (1).jpg" alt="" className="rounded-lg" />
+							<img src="big (2).jpg" alt="" className="rounded-lg" />
+							{/* <img src="big (3).jpg" alt="" className="rounded-lg" /> */}
+
+
+						</div>
+					</div>
+
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+
+					<div className="text-center">
+						<p className="text-center text-transparent m-8 text-4xl md:text-5xl font-thin bg-clip-text bg-gradient-to-br from-[#BE277E] to-[#324AA0]"
+						>ReactJS Workshop</p>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+							<img src="rjs (1).jpg" alt="" className="rounded-lg" />
+							<img src="rjs (2).jpg" alt="" className="rounded-lg" />
+							{/* <img src="pcb3.jpeg" alt="" className="rounded-lg" /> */}
+
+
+						</div>
+					</div>
+
+					<br />
+					<br />
+
+					<p className="h-1 bg-gradient-to-br from-[#BE277E] to-[#324AA0]"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+
+
+
+
+
+
+
 			</div>
 			<div className="flex flex-col my-16 md:mx-16 mx-8">
 				<Link

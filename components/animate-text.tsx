@@ -33,16 +33,16 @@ export const TypingAnimationText = ({
 			animate={isInView ? "visible" : "hidden"}
 			transition={{ staggerChildren: 0.1 }}
 		>
-			<span className={className}>
-				{text.split("").map((char, index) => (
-					<motion.span
-						key={index}
-						variants={defaultAnimations}
-					>
-						{char}
-					</motion.span>
-				))}{" "}
-			</span>
+			  <span className={className}>
+                {text.split("").map((char, index) => (
+                    <motion.span
+                        key={index}
+                        variants={defaultAnimations}
+                    >
+                        {char}
+                    </motion.span>
+                ))}
+            </span>
 			<motion.span
 				variants={defaultAnimations}
 				transition={{ duration: 1 }}
